@@ -1,0 +1,16 @@
+m-1:
+  sql: SELECT LM_1, M1_1, M1_2
+  params:
+    k1: v1
+    k2: v2
+  metrics:
+    M1_1: M1_1
+    M1_2: M1_2
+m-2:
+  sql: SELECT LM_2, M2_1, M2_2
+  params:
+    k1: v1
+    k2: v2
+  metrics:
+    M2_1: M2_1
+    M2_2: M2_2

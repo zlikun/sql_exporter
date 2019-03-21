@@ -1,0 +1,19 @@
+defaults:
+  driver: mysql
+  timeout: 30s
+  interval: 60s
+  value-on-error: -1
+
+data-sources:
+  ds-m:
+    host: 192.168.0.101
+    port: 3306
+    user: root
+    password: 123456
+    database: m
+  ds-n:
+    host: 192.168.0.102
+    port: 3306
+    user: root
+    password: 123456
+    database: n

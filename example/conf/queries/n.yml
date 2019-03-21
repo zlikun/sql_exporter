@@ -1,0 +1,8 @@
+n-1:
+  sql: SELECT LN_1, N1_1, N1_2
+  params:
+    k1: v1
+    k2: v2
+  metrics:
+    N1_1: N1_1
+    N1_2: N1_2
